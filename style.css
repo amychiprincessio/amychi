@@ -1,0 +1,66 @@
+body{
+    background-color:#fffc47;
+}
+h1 {
+ color:#ffb347;
+ font-family: 'Fredoka One';
+ font-size:60px;
+ animation:uppydoo;
+ animation-timing-function:ease;
+ animation-duration:0.8s;
+}
+@keyframes uppydoo{
+    from{
+        margin-right:50%;
+        color:black;
+        font-size:70px;
+    }
+    to{
+        margin-right:0%;
+        color:#ffb347;
+        font-size:60px;
+    }
+}
+#goback {
+    color:#ffb347;
+    font-family: 'Fredoka One';
+    font-size:30px;
+    animation:gradiate;
+    animation-timing-function:ease;
+    animation-duration: 1s;
+}
+@keyframes gradiate{
+    from{        
+        color:#f047ff;
+        margin-bottom:10%;
+        font-size:20px;
+
+    }
+    to{
+        font-size:30px;
+        margin-bottom:0%;
+        color:#ffb347;
+
+    }
+}
+a{
+    text-decoration: none;
+}
+#paragraph{
+    font-family:"Itim";
+    color:#58c443;
+    font-size:21px;
+    animation:oohlook;
+    animation-timing-function: ease;
+    animation-duration:1s;
+}
+@keyframes oohlook{
+    from{
+        color:#9aff47;
+    }
+    to{
+        color:#58c443;
+    }
+}
+
+

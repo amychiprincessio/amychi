@@ -1,0 +1,130 @@
+:root {
+    --pastel-orange:#ffb347;
+    --pastel-green:#9aff47;
+    --pastel-yellow:#fffc47;
+    --pastel-violet:#f047ff;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+background-color:#fffc47;
+
+
+height: 100vh;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+font-family: 'Fredoka One';
+min-height: 100vh;
+background-size:100% 100%;
+}
+
+
+p{
+    font-size:50px;
+    letter-spacing:-0.22ch;
+}
+p > span {
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    display: inline-block;
+    height: 100px;
+
+}
+p > span:nth-child(2) {
+    animation-delay: 0.1s;}
+    p > span:nth-child(3) {
+        animation-delay: 0.2s;
+}
+p > span:nth-child(4) {
+    animation-delay: 0.3s;}
+    p > span:nth-child(5) {
+        animation-delay: 0.4s;
+}
+p > span:nth-child(6) {
+    animation-delay: 0.5s;}
+
+ 
+@keyframes move{
+    from{}
+    to{
+        transform: translateY(-40px) scale(1.125);
+        color:#ffb347;
+        letter-spacing: 0;
+    }
+}
+.fa-youtube{
+    color:#9aff47;
+    margin-right: 110px;
+    animation: mySlide;
+    animation-duration: 1s;
+    animation-delay:0s;
+}
+@keyframes mySlide{
+    from{position:relative; left: -100px; color:black;}
+    to{position:relative; left:0%; color:#9aff47;}
+}
+.fa-instagram{
+    color:#9aff47;
+    margin-right: 90px;
+    margin-left: 40px;
+    align-items: center;
+    animation: mySlide2;
+    animation-duration: 1s;
+    animation-delay:0s;
+}
+@keyframes mySlide2{
+    from{position:relative; left: -200px; color:black;}
+    to{position:relative; left:0%;  color:#9aff47;}
+}
+.fa-paw{
+    color:#9aff47;
+    margin-right: 30px;
+    margin-left: 50px;
+    animation: mySlide3;
+    animation-duration: 1s;
+    animation-delay:0s;
+}
+@keyframes mySlide3{
+    from{position:relative; left: -300px;  color:black;}
+    to{position:relative; left:0%;  color:#9aff47;}
+}
+a{
+    text-decoration:none;
+}
+div{
+    margin:100px;
+    padding:0px;
+    font-size: 40px;
+    letter-spacing:-0.22ch;
+    color:#ffb347;
+}
+div > span {
+    animation-name:Up;
+    animation-duration:1.2s;
+}
+div > span:nth-child(2) {
+    animation-delay: 0.1s;}
+    div > span:nth-child(3) {
+        animation-delay: 0.2s;
+}
+div > span:nth-child(4) {
+    animation-delay: 0.3s;}
+    div > span:nth-child(5) {
+        animation-delay: 0.4s;
+}
+@keyframes Up{
+    from{        
+        color:#f047ff;
+    }
+    to{
+        transform: translateY(40px) scale(1.125);
+        color:#ffb347;
+        letter-spacing: 0;
+    }
+}
