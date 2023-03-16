@@ -27,6 +27,7 @@ background-size:100% 100%;
 p{
     font-size:50px;
     letter-spacing:-0.22ch;
+    margin:0px;
 }
 p > span {
     animation-name: move;
@@ -60,10 +61,14 @@ p > span:nth-child(6) {
 }
 .fa-youtube{
     color:#9aff47;
-    margin-right: 110px;
+    margin:0;
+    padding: 30px;
+    justify-content:center;
+    vertical-align:middle;
     animation: mySlide;
     animation-duration: 1s;
     animation-delay:0s;
+    align-items:center;
 }
 @keyframes mySlide{
     from{position:relative; left: -100px; color:black;}
@@ -71,8 +76,10 @@ p > span:nth-child(6) {
 }
 .fa-instagram{
     color:#9aff47;
-    margin-right: 90px;
-    margin-left: 40px;
+    margin:0;
+    padding:30px;
+    justify-content:center;
+    vertical-align:middle;
     align-items: center;
     animation: mySlide2;
     animation-duration: 1s;
@@ -84,11 +91,14 @@ p > span:nth-child(6) {
 }
 .fa-paw{
     color:#9aff47;
-    margin-right: 30px;
-    margin-left: 50px;
+    margin:0;
+    padding:30px;
+    justify-content: center;
+    vertical-align:middle;
     animation: mySlide3;
     animation-duration: 1s;
     animation-delay:0s;
+    align-items:center;
 }
 @keyframes mySlide3{
     from{position:relative; left: -300px;  color:black;}
@@ -98,11 +108,13 @@ a{
     text-decoration:none;
 }
 div{
-    margin:100px;
+    margin:0px;
     padding:0px;
     font-size: 40px;
     letter-spacing:-0.22ch;
     color:#ffb347;
+    vertical-align:middle;
+    padding-top: 30px;
 }
 div > span {
     animation-name:Up;
