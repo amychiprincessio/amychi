@@ -119,6 +119,21 @@ p > span:nth-child(6) {
     from{position:relative; left: -300px;  color:black;}
     to{position:relative; left:0%;  color:#9aff47;}
 }
+.fa-tumblr{
+    color:#9aff47;
+    margin:0;
+    padding:30px;
+    justify-content: center;
+    vertical-align:middle;
+    animation: mySlide5;
+    animation-duration: 1s;
+    animation-delay:0s;
+    align-items:center;
+}
+@keyframes mySlide5{
+    from{position:relative; left: -300px;  color:black;}
+    to{position:relative; left:0%;  color:#9aff47;}
+}
 a{
     text-decoration:none;
 }
@@ -154,4 +169,10 @@ div > span:nth-child(4) {
         color:#ffb347;
         letter-spacing: 0;
     }
+}
+goback{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
